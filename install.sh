@@ -9,3 +9,4 @@ cp st.py ~
 mv zshrc .zshrc
 cp .bashrc ~
 proot-distro install archlinux
+python ex.py
