@@ -7,7 +7,7 @@ chsh -s /zsh
 pkg install proot-distro
 cp st.py ~
 mv zshrc .zshrc
-cp .bashrc ~
+cp .zshrc ~
 proot-distro install archlinux
 clear
 python ex.py
