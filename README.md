@@ -15,6 +15,6 @@ cd Termux-Arch
 
 chmod +x install.sh
 
-./Install.sh
+./install.sh
 
 (after you finish the instalacion process, restart the termux app)
