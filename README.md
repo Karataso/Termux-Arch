@@ -18,3 +18,4 @@ chmod +x install.sh
 ./install.sh
 
 (after you finish the instalacion process, restart the termux app)
+(Termux should jump straigth to arch comand line)
