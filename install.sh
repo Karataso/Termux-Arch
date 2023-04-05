@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 pkg update && pkg upgrade
 pkg install python
 pip install termcolor
