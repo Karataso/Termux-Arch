@@ -4,6 +4,6 @@ pkg install python
 pip install termcolor
 pkg install proot-distro
 cp st.py ~
-mv bashrc.txt .bashrc
+mv bashrc .bashrc
 cp .bashrc ~
 proot-distro install archlinux
