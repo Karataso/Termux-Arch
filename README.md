@@ -1,7 +1,7 @@
 # Termux-Arch
 The power of archlinux on your pocket
 
-use this little script to install archlinux on termux
+use this little script to install archlinux on termux,
 Download Termux here: https://github.com/termux/termux-app
 
 To install Arch Linux on your termux app, folow the next steps:
