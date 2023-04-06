@@ -1,10 +1,10 @@
 from termcolor import colored, cprint
-cprint("          / \", "cyan")
-cprint("         /   \", "cyan")  
+cprint("          / \ ", "cyan")
+cprint("         /   \ ", "cyan")  
 cprint("        /^.   \ ", "cyan")
 cprint("       /  .-.  \ ", "cyan")
 cprint("      /  (   ) _\ ", "cyan")
-cprint("     / _.~   ~._^\", "cyan")
+cprint("     / _.~   ~._^\ ", "cyan")
 cprint("    /.^         ^.\ ", "cyan")
 cprint("TermuxArch by Karataso", "cyan")
 print("--------------------------------------------")
