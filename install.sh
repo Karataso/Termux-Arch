@@ -2,6 +2,8 @@
 pkg update && pkg upgrade
 pkg install python
 pip install termcolor
+clear
+python question.py
 pkg install zsh
 chsh -s /zsh
 pkg install proot-distro
