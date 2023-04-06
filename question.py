@@ -1,9 +1,14 @@
 from termcolor import cprint, colored
 import os
+cprint("Please zoom out your screen or make shure it´s not too small", "yellow")
+initialquest = colored("Ascii art will be shown... press enter to continue: ", "yellow")
+initialanswer = input(initialquest)
 #asignamos todas las bariables, con color para poder dibujarlas despues
 cprint("_  _ ____ ____ ____ ___ ____ ____ ____ ", "yellow")
 cprint("|_/  |__| |__/ |__|  |  |__| [__  |  | ", "yellow")
 cprint("| \_ |  | |  \ |  |  |  |  | ___] |__| ", "yellow")
+print("     ")
+print("     ")
 Andr1 = colored("   ░█▀█░█▀█░░░█▀█░█▀█░█▀▄░█▀▄░█▀█░▀█▀░█▀▄", "green")
 Andr2 = colored(" ░ █░█░█░█░░░█▀█░█░█░█░█░█▀▄░█░█░░█░░█░█", "green")
 Andr3 = colored(" ░▀▀▀░▀░▀░░░▀░▀░▀░▀░▀▀░░▀░▀░▀▀▀░▀▀▀░▀▀░", "green")
@@ -51,3 +56,12 @@ print("     ")
 print("     ")
 cprint("Welcome to Karataso, Termux-Arch Instaler", "yellow")
 cprint("This script ads ascci art at termux startup, however, you can disable it", "yellow")
+asciiquestion = colored("Disable ascci art at startup? {y|n} ", "yellow")
+answer = input(asciiquestion)
+if answer == "y":
+  cprint("Ascii art has been disabled", "red")
+  os.system(rm -rf zshrc)
+  os.system(mv noascii zshrc)
+else:
+  cprint("Ascii art was not disabled, will show at termux startup", "red")
+ex = input("Press enter to continue with instalation")
