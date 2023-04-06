@@ -1,4 +1,5 @@
 from termcolor import cprint, colored
+import os
 #asignamos todas las bariables, con color para poder dibujarlas despues
 cprint("_  _ ____ ____ ____ ___ ____ ____ ____ ", "yellow")
 cprint("|_/  |__| |__/ |__|  |  |__| [__  |  | ", "yellow")
@@ -48,3 +49,5 @@ print(logo20)
 print(logo21)
 print("     ")
 print("     ")
+cprint("Welcome to Karataso, Termux-Arch Instaler", "yellow")
+cprint("This script ads ascci art at termux startup, however, you can disable it", "yellow")
