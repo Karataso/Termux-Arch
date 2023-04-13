@@ -1,0 +1,13 @@
+from termcolor import cprint, colored
+cprint("Welcome to Ascii art removal guide", "green")
+print("Its a realy simple process, please run the folowing comands")
+print("These comands must be executed on termux terminal, not arch")
+print("If you are on arch terminal run ´exit´ to ext arch and enter termux")
+print("The commands are writen in yellow")
+print("   ")
+print("   ")
+cprint("cd ~/Termux-Arch", "yellow")
+cprint("rm -rf ~/.zshrc", "yellow")
+cprint("mv noasci ~/.zsrc", "yellow")
+print("  ")
+print("Once you have done that, restart termux by runing ´Exit´ command")
